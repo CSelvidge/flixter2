@@ -19,7 +19,7 @@
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 200;
   box-shadow: 0px 1px 3px #2a2a2a;
-  background-image: url('prism.png');
+  background: image_url('prism.png');
 }
 
 .navbar-dark a.navbar-brand {
@@ -29,7 +29,7 @@
 }
 
 .hero {
-  background-image: url('hero.jpg');
+  background: image_url('hero.jpg') no-repeat center center fixed;
   background-color: #cccccc;
   background-repeat: no-repeat;
   background-position: center;
@@ -39,7 +39,7 @@
 }
 
 body {
-  background-image: url('stardust_2x.png');
+  background: image_url('stardust_2x.png');
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", "Georgia", serif;
   color: #878787;
 }
