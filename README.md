@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Using Ruby 2.6.3 and Rails 5.2.3
 
-Things you may want to cover:
+This project seperated users into Student and Teacher, uses the cloud to store videos, and handles course enrollment via Stripe. Flixter uses a much more complex database that allows teachers to order their courses into lessons and each lesson can have on-the-fly ordered sections via Javacript interactions. Students may only view the videos on courses they are enrolled in.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The site is designed to accept stripe test card 4242 4242 4242 4242 with any valid experation date and CCV.
